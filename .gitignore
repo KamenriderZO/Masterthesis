@@ -1,3 +1,7 @@
+# ==========================================
+# Original gaussian-splatting ignore rules
+# ==========================================
+
 *.pyc
 .vscode
 output
@@ -6,3 +10,59 @@ diff_rasterization/diff_rast.egg-info
 diff_rasterization/dist
 tensorboard_3d
 screenshots
+
+
+# ==========================================
+# Master Thesis - Datasets
+# ==========================================
+
+data/
+dataset/
+datasets/
+input/
+inputs/
+test_data/
+test_dataset/
+raw_data/
+
+# Photos / Videos
+*.mp4
+*.mov
+*.avi
+
+
+# ==========================================
+# COLMAP generated files
+# ==========================================
+
+database.db
+distorted/
+dense/
+
+
+# ==========================================
+# Training outputs / checkpoints
+# ==========================================
+
+outputs/
+results/
+checkpoints/
+logs/
+runs/
+
+*.pth
+*.pt
+*.ckpt
+
+
+# ==========================================
+# Temporary files
+# ==========================================
+
+tmp/
+temp/
+.cache/
+
+# Windows
+Thumbs.db
+Desktop.ini
